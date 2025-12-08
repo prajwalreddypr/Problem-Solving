@@ -53,12 +53,76 @@
 
 
 
-#REVERSE A STRING
+# #REVERSE A STRING
 
-str = "Paris is great"
+# str = "Paris is great"
 
-def reverse_string(str):
+# def reverse_string(str):
     
-    return str[::-1]
+#     return str[::-1]
 
-print(reverse_string(str))
+# print(reverse_string(str))
+
+
+#HELLO WORLD
+# print("Hello World")
+
+
+# name = input("Enter your name: ")
+# print(name)
+
+# num1 = int(input("Number 1: "))
+# num2 = int(input("Number 2: "))
+# print("sum", num1 + num2)
+
+
+# str = input("Enter a string: ")
+# print(len(str))
+
+
+#GIVEN A STRING, PRINT FIRST AND LAST CHAR
+# str = "Prajwal"
+# print(f"First char: {str[0]}")
+# print(f"Last char: {str[-1]}")
+
+
+# #REVERSE A STRING
+# str = "this is long string"
+# print(str[::-1])
+
+
+# str = "Paris is lovely"
+# print(str.upper())
+# print(str.lower())
+
+
+# #appending an item to a list
+# arr = [10,20, 30]
+# arr.append(40)
+# # print(arr)
+# arr.remove(20)
+# print(arr)
+
+
+#SUMMING A LIST OF NUMBERS
+# nums = [1,2,3,4,5]
+# print(sum(nums))
+# sum = 0
+
+# for num in nums:
+#     sum += num
+
+# print(sum)
+
+
+
+
+# #MAX NUMBER INA LIST
+# nums = [1,2,3,4,5,6]
+# # print(max(nums))
+
+# max_num = nums[0]
+# for num in nums:
+#     if num > max_num:
+#         max_num = num
+# print(max_num)
