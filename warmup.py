@@ -126,3 +126,29 @@
 #     if num > max_num:
 #         max_num = num
 # print(max_num)
+
+
+
+#CHECKING IF AN ELEMENT EXISTS IN A LIST
+# arr = [10,43,4,34,34,5,4,67,78]
+# print(60 in arr)
+# print(67 in arr)
+
+
+#COUNTING OCCUREENCES OF an element
+# arr = [1,2,3,4,3,4,5,6,6,7]
+# # print(arr.count(3))
+
+# count = {}
+
+# for item in arr:
+#     if item in count:
+#         count[item] += 1
+#     else:
+#         count[item] = 1
+
+# print(count)
+
+
+
+
