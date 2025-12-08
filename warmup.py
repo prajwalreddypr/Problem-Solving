@@ -153,3 +153,36 @@
 
 
 #LOOP THROUGH A StriNG AND COUNT VOWELS
+# str = "Paris is a wonderful city"
+# vowels = "aeiouAEIOU"
+# count = 0
+
+# for char in str:
+#     if char in vowels:
+#         count += 1
+
+# print(count)
+
+
+
+#CONVERTING STRING TO LIST OF CHARACTERS
+# str = "paris is lovely"
+# chars = list(str)
+
+# for char in chars:
+#     if char == " ":
+#         continue
+#     else:
+#         print(list(char))
+        
+        
+        
+#CONVERTING A LIST OF CHARS BACK TO STRING
+# chars = ['a', 'b', 'c', 'd', 'e', 'f']
+# str = "".join(chars)
+# print(str)
+
+
+# arr = [1,2,3,4,5,6,7,8,9,10]
+# print(arr[::2])
+# #slicing -> [start: end :step]
