@@ -71,3 +71,69 @@
 
 
 #REMOVE DUPLICATES FROM LIST
+# list = [1,2,3,4,1,2,1,3,6]
+# count = {}
+# dup = []
+
+# for item in list:
+#     if item in count:
+#         count[item] += 1
+        
+#         if count[item] == 2:
+#             dup.append(item)
+#     else:
+#         count[item] = 1
+
+# print(dup) '
+
+
+
+#GETTING THE LAST n ELEMENTS
+
+# lst = [1,2,23,3,4,456,356,3,345]
+# print(lst[-4::2])
+
+
+
+#CHECKING IF LSIT IS EMPTY
+# lst = [34,56,87,32]
+
+# if not lst:
+#     print("EMpty")
+    
+
+
+
+#SWAPPING 2 VARIABLES
+
+# a, b = 34,54
+# a,b = b,a
+# print(a,b)
+
+
+#REMOVING WHITE SPACE
+# text = "   heyy bonjou   "
+# print(text.strip())
+
+
+
+#COUNTING VOWELS IN A STRING
+# str = "Paris is cold and dark in winters"
+# vowels = "aeieouAEIOU"
+# count = 0
+
+
+# for char in str:
+#     if char in vowels:
+#         count += 1
+        
+# print(count)
+
+
+
+
+
+#REPLACING A SUBSTRING WIHT A STRING
+text = "I love Java"
+changed_text = text.replace("Java", "Python")
+print(changed_text)
